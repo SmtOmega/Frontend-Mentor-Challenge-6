@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,400,600i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins:200,400,600i&display=swap');
+
 * {
     box-sizing: border-box;
 }
 body {
+    font-family: 'Open Sans', sans-serif;
     color: hsl(192, 100%, 9%);
     margin: 0;
 }
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
 img {
     max-width: 100%;
 }
@@ -131,6 +139,12 @@ footer p {
 .attribute {
     text-align: center;
     padding-top: 20px;
+}
+.attribute a {
+    color: #fff;
+}
+.attribute a:hover {
+    color: hsl(322, 100%, 66%);
 }
 @media screen and (max-width: 780px){
     body {
